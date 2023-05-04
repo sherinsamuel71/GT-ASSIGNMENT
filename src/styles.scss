@@ -1,1 +1,29 @@
 /* You can add global styles to this file, and also import other style files */
+
+
+:root {
+  --bg-color: #fff;
+  --bg-black: #000000;
+  --font-family: "Montserrat-Regular";
+  --font-family2:"Montserrat-Bold";
+  --font-family3:"Montserrat-Medium";
+}
+
+@font-face {
+  font-family: 'Montserrat-Regular';
+  src: url(../src/assets/fonts/Montserrat-Light.ttf);
+}
+
+@font-face {
+  font-family: 'Montserrat-Bold';
+  src: url(../src/assets/fonts/Montserrat-Bold.ttf);
+}
+@font-face {
+  font-family: 'Montserrat-Medium';
+  src: url(../src/assets/fonts/Montserrat-Medium.ttf);
+}
+*{
+  margin: 0;
+  padding: 0;
+  font-family: var(--font-family);
+}

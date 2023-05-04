@@ -7,18 +7,22 @@ import { SharedModule } from './shared/shared.module';
 import { LayoutModule } from './layout/layout.module';
 import { HomePageModule } from './features/home-page/home-page.module';
 import { HomePageComponent } from './features/home-page/home-page.component';
+import { CoreModule } from './core/core.module';
 
 @NgModule({
   declarations: [
     AppComponent,
     HomePageComponent
   ],
+   exports:[SharedModule],
   imports: [
     BrowserModule,
     AppRoutingModule,
+    // core, shared & layout
     SharedModule,
     LayoutModule,
-    HomePageModule
+    HomePageModule,
+    CoreModule
   ],
   providers: [],
   bootstrap: [AppComponent]

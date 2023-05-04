@@ -1,1 +1,35 @@
-<p>main-layout works!</p>
+<app-header></app-header>
+<div class="banner">
+   <span class="title">Simple PSD template with cool stuff</span>
+   <p class="sub_title">Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
+
+   <div class="btn_">
+    <span class="btn_text" (click)="modalOpen()">
+      EXPLORE TEMPLATE
+    </span>
+  </div>
+</div>
+<app-offer-layout></app-offer-layout>
+<app-offer-details></app-offer-details>
+<app-mobile-view></app-mobile-view>
+<app-profile-layout></app-profile-layout>
+<app-footer></app-footer>
+
+
+  <div *ngIf="isModalOpen" id="myModal" class="modal">
+
+    <!-- Modal content -->
+    <div class="modal-content">
+      <span class="close" (click)="close()">&times;</span>
+        <span class="modal_title">Thanks for downloading our template !</span>
+        <p class="modal_sub">Hope that you enjoy it well ! check also our site</p>
+
+        <div class="btn_">
+          <span class="btn_click" >
+            www.symu.co
+          </span>
+        </div>
+    </div>
+
+  </div>
+

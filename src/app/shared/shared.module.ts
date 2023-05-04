@@ -1,10 +1,13 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
+import { TempModalComponent } from './temp-modal/temp-modal.component';
 
 
 
 @NgModule({
-  declarations: [],
+  declarations: [
+    TempModalComponent
+  ],
   imports: [
     CommonModule
   ]

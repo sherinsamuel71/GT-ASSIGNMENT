@@ -1,0 +1,58 @@
+.bg_profile{
+  width: 100%;
+  height: 57vh;
+  margin-top: 0;
+  background-color: #f7f8fd;
+}
+div{
+  width: 50%;
+  height: 100%;
+  float: left;
+}
+.user_pic{
+    background-image: url(../../../assets/images/user-photo.png);
+    position: absolute;
+    left: 251px;
+    width: 43%;
+    background-size: cover;
+}
+.parent{
+  position: relative;
+  top: 0;
+  left: 0;
+}
+
+.snowflake{
+  background-image: url(../../../assets/images/Snowflake.png);
+  width: 58%;
+  margin-top: 41px;
+  position: relative;
+  top: 0;
+  left: 0;
+  background-size: cover;
+  margin-left: 182px;
+  display: flex;
+  align-items: center;
+  background-position: 50%;
+}
+.align{
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+.title{
+  color:#ef6767;
+}
+
+.details_sub{
+    justify-content: center;
+    color: gainsboro;
+    font-size: 13px;
+    display: flex;
+    text-align: justify;
+    width: 391px;
+    margin: 15px 0px;
+    word-break: break-word;
+    line-height: 23px;
+}
